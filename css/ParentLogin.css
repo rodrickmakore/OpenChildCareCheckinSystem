@@ -1,0 +1,96 @@
+td
+{
+    padding: 0px;
+    text-align: center;
+}
+
+td button
+{
+    width: 90%;
+    outline: none;
+    margin: 0;
+}
+
+table
+{
+    border-collapse: separate;
+}
+
+#txtPhoneNumber
+{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D0D0D0;
+    outline: none;
+}
+
+input[type='text'], input[type='tel']
+{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D0D0D0;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.gradientWell
+{
+    border: 1px solid rgba(219,219,219,1);
+    border-radius: 20px;
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.registerPanel
+{
+    background-color: lightblue;
+    padding: 2px 5px 5px 5px;
+    margin-top: 10px;
+}
+
+.registerPanel table
+{
+    width: 100%;
+}
+
+.btn-lg
+{
+    margin-bottom: 5px;
+}
+
+.parentLoginQuicklinks
+{
+    float: right;
+}
+
+.parentLoginQuicklinks li
+{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+.parentLoginQuicklinks li:hover
+{
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    background-color: #D0D0D0;
+    cursor: pointer;
+}
+
+.selected
+{
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}

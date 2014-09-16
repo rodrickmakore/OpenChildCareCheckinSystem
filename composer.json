@@ -1,0 +1,2 @@
+{"require": {"doctrine/orm": "2.3.5",
+        "propel/propel": "2.0.0-alpha3"}}
